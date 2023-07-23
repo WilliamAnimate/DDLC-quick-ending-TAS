@@ -4,10 +4,7 @@ crappy rust TAS for the [quick ending](https://doki-doki-literature-club.fandom.
 
 ## demo
 
-<video controls>
-    <source src="img/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+[view the demo here](https://github.com/WilliamAnimate/DDLC-quick-ending-TAS/blob/main/img/demo.mp4?raw=true)
 
 > The video is only slow because I am running the game on my HDD + DDLC is made using python.
 
