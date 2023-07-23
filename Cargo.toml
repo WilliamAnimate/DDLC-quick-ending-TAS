@@ -1,0 +1,6 @@
+[package]
+name = "ddlc_quick_ending_tas"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
