@@ -4,7 +4,7 @@ crappy rust TAS for the [quick ending](https://doki-doki-literature-club.fandom.
 
 ## demo
 
-[view the demo here](https://github.com/WilliamAnimate/DDLC-quick-ending-TAS/blob/main/img/demo.mp4?raw=true)
+https://github.com/WilliamAnimate/DDLC-quick-ending-TAS/assets/75321465/b4567def-f547-46e4-98c6-faba0e7f56c5
 
 > The video is only slow because I am running the game on my HDD + DDLC is made using python.
 
