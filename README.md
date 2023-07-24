@@ -2,13 +2,9 @@
 
 crappy rust TAS for the [quick ending](https://doki-doki-literature-club.fandom.com/wiki/Possible_Endings#Quick_Ending) for [Doki Doki Literature Club](https://ddlc.moe).
 
-## demo
+## [demo, and my own run of this game with this TAS.](https://youtu.be/1UQSrYjjNHs)
 
-https://github.com/WilliamAnimate/DDLC-quick-ending-TAS/assets/75321465/b4567def-f547-46e4-98c6-faba0e7f56c5
-
-> The video is only slow because I am running the game on my HDD + DDLC is made using python.
-
-<!-- > Maybe you don't know what DDLC is, you should play it at nights when you just want to burn time ;) -->
+> Maybe you don't know what DDLC is, you should play it at nights when you just want to burn time ;)
 
 I don't have ddlc plus, but this code *should* work the same.
 
@@ -32,6 +28,6 @@ I don't have ddlc plus, but this code *should* work the same.
 
 2: Make your changes.
 
-3: ``rustc main.rs`` or run ``build.bat``
+3: ``cargo build --release`` or run ``build.bat``
 
 4: Make sure to record your new and improved TAS and upload it to [youtube.com](https://youtube.com) and get 9999999999 subscribers for **your** TAS.
