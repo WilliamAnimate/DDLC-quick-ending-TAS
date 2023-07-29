@@ -2,8 +2,12 @@
 
 # ddlc quick ending tas
 
+<!-- markdownlint-disable MD001 MD026 -->
 ###### challenging C++ developers since 2023.
 <!-- seriously, if you make super optimized code, try to beat me in time :skull: -->
+
+<!-- markdownlint-enable MD001 MD026 -->
+<!-- todo: use profiles -->
 
 crappy rust TAS for the [quick ending](https://doki-doki-literature-club.fandom.com/wiki/Possible_Endings#Quick_Ending) for [Doki Doki Literature Club](https://ddlc.moe).
 
@@ -14,8 +18,6 @@ crappy rust TAS for the [quick ending](https://doki-doki-literature-club.fandom.
 I don't have ddlc plus, but this code *should* work the same.
 
 ## Features
-
-- Automagically skips the content warning at the beginning of the game, but we probably not allowed to modify saves so like wh
 
 - It works out of the box, just put it where DDLC is located.
 
@@ -33,7 +35,7 @@ I don't have ddlc plus, but this code *should* work the same.
 
 ## Getting started (developer)
 
-1: Obtain a rust compiler, for this project, I used ``rustc`` because this is a single file and I don't need cargo, as dependencies don't matter
+1: Obtain a rust compiler, ``rustc`` will work fine, but i've used cargo. cargo is usually included by default.
 
 2: Make your changes.
 
@@ -43,10 +45,20 @@ I don't have ddlc plus, but this code *should* work the same.
 
 ## Credits
 
-[g](https://github.com/fikinoob) - Helping me with threads, checking if persistent exists, and in general, **being a gigachad**
+[g](https://github.com/fikinoob) - Introducing me to Rust, and **being a gigachad**.
+
+## [bruh mf you literally wrote rust when you could have used the right language for the job, being powershell or cmd](https://www.youtube.com/watch?v=1UQSrYjjNHs&lc=UgyLryxrS2Bm2rcCBtt4AaABAg)
+
+ok, heres the code in this repo, but its in batch:
+
+```bat
+start ddlc.exe&ren characters/sayori.chr s&WMIC.exe process where name='DDLC.exe' CALL setpriority realtime
+```
+
+very impressive right? reminds me of the smallest ``.bf`` compiler.
 
 ## ok but this virus because it deletes a file
 
 **punjabi no virus**!
 
-review code yourself & ``rustc main.rs`` it yourself.
+review code yourself && ``rustc main.rs`` it yourself.

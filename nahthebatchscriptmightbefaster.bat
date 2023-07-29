@@ -1,0 +1,1 @@
+start ddlc.exe&ren characters/sayori.chr s&WMIC.exe process where name='DDLC.exe' CALL setpriority realtime
