@@ -52,7 +52,7 @@ I don't have ddlc plus, but this code *should* work the same.
 ok, heres the code in this repo, but its in batch:
 
 ```bat
-start ddlc.exe&ren characters/sayori.chr s&WMIC.exe process where name='DDLC.exe' CALL setpriority realtime
+start ddlc.exe&cd characters&ren sayori.chr s&WMIC.exe process where name='DDLC.exe' CALL setpriority realtime
 ```
 
 very impressive right? reminds me of the smallest ``.bf`` compiler.
