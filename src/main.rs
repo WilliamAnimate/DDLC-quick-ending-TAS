@@ -23,7 +23,7 @@ fn main() {
 	spawn(|| {
 		match remove_file("game/firstrun") {
 			Ok(_) => {}
-			Err(err) => eprintln!("ERROR: failed to delete firstrun: {}", err),
+			Err(err) => eprintln!("Firstrun doesn't exist, did you delete it?: {}", err),
 		}
 		// explaination on why deletion:
 		// turns out, firstrun exists, it just puts the '1' value into it.
