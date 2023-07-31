@@ -1,0 +1,1 @@
+cd characters & ren s sayori.chr
